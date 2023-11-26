@@ -10,7 +10,11 @@
 // 💚 SOLUTION
 
 function addLength(str) {
-    
+    let elements = str.split(' ');    
+    for(let i = 0; i < elements.length; i++){      
+      elements[i] = elements[i] + " " + elements[i].length;      
     }
-  addLength('apple ban');
-  addLength('you will winn');
+    return elements;
+    }
+  console.log(addLength('apple ban'));
+  console.log(addLength('you will winn'));
