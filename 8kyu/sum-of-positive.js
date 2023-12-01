@@ -8,13 +8,13 @@
 // 💚 SOLUTION
 
 function positiveSum(arr) {
-  let sum = 0;
-  for(let el of arr) {
-    if(el > 0){
-        sum += el;
+    let sum = 0;
+    for(let el of arr) {
+      if(el > 0){
+          sum += el;
+      }
     }
-  }
-  return sum;
+    return sum;
 }
 
 console.log(positiveSum([1,-4,7,12]));
