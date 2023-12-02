@@ -6,7 +6,7 @@
 // 💚 SOLUTION
 
 function booleanToString(b) {    
-        return
+        return  String(b);
     
     }
 
