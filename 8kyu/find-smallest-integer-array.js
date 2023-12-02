@@ -5,12 +5,14 @@
 
 // 💚 SOLUTION
 
-findSmallestInt(args) {
-    let result = 0;
-    for( let argument of args){
+function findSmallestInt(args) {
+    let result = args[0];
+    for( let argument of args){      
       if(argument < result){
-        result = argument;
+        result = argument;        
       }
     }
     return result;
   }
+
+  console.log(findSmallestInt([34, 15, 88, 2]));
